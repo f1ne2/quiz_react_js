@@ -33,4 +33,4 @@ yarn-error.log*
 /src/img/web.png
 /public/logo512.png
 /public/logo192.png
-../idea/*
+../.idea/*
