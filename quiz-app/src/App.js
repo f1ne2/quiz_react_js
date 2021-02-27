@@ -27,40 +27,76 @@ function App() {
       <div className="table table-borderless">
           <table width="100%"  align="center">
               <tr>
-                  <td colSpan="2"><div className="circle"></div></td>
+                  <td colSpan="2">
+                      <div className="circle"></div>
+                  </td>
               </tr>
               <tr>
-                  <td rowSpan="3"><div className="circle2"></div></td>
-                  <td height="50%"><p>TAKE<span>THE</span><img src={Q} className="img-fluid"/>UIZZZ!</p>
+                  <td rowSpan="3">
+                      <div className="circle2"></div>
+                  </td>
+                  <td height="50%">
+                      <p>TAKE
+                          <span>THE</span>
+                          <img src={Q} className="img-fluid"/>UIZZZ!
+                      </p>
                       <p className="select"> Select category:</p>
-                      </td>
-                  <td colSpan="2"><img src={student_using_laptop} className="img-fluid student" /></td>
-              </tr>
-              <tr> <td><div className="category"> {items[0].title} </div></td>
-              <td><div className="category"> {items[1].title} </div></td>
-              <td> <div className="category"> {items[2].title}</div></td>
+                  </td>
+                  <td colSpan="2">
+                      <img src={student_using_laptop} className="img-fluid student" />
+                  </td>
               </tr>
               <tr>
-                  <td> <div className="category"> {items[3].title}</div></td>
-                  <td> <div className="category"> {items[4].title}</div></td>
-                  <td> <div className="category"> {items[5].title}</div></td></tr>
-              <tr><td></td> <td> <div className="category"> {items[6].title}</div></td>
-                  <td> <div className="category"> {items[7].title}</div></td>
-                  <td> <div className="category"> {items[8].title}</div></td></tr>
-              <tr><td></td> <td> <div className="category"> {items[9].title}</div></td>
-
+                  <td>
+                      <div className="category"> {items[0].title} </div>
+                  </td>
+                  <td>
+                      <div className="category"> {items[1].title} </div>
+                  </td>
+                  <td>
+                    <div className="category"> {items[2].title}</div>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <div className="category"> {items[3].title}</div>
+                  </td>
+                  <td>
+                      <div className="category"> {items[4].title}</div>
+                  </td>
+                  <td>
+                      <div className="category"> {items[5].title}</div>
+                  </td>
+              </tr>
+              <tr>
+                  <td></td>
+                  <td>
+                      <div className="category"> {items[6].title}</div>
+                  </td>
+                  <td>
+                      <div className="category"> {items[7].title}</div>
+                  </td>
+                  <td>
+                      <div className="category"> {items[8].title}</div>
+                  </td>
+              </tr>
+              <tr>
+                  <td></td>
+                  <td>
+                      <div className="category"> {items[9].title}</div>
+                  </td>
               </tr>
           </table>
           <table width="100%" align="center">
               <tr>
                   <td>
-          <div className="container greenball">
-              <img src={greenball} className="img-fluid"/>
-          </div>
+                      <div className="container greenball">
+                          <img src={greenball} className="img-fluid"/>
+                      </div>
                   </td>
               </tr>
-                  <tr>
-                      <td>
+              <tr>
+                  <td>
                       <div className="container purpleball">
                       <img src={ball} className="img-fluid"/>
                       </div>
@@ -69,14 +105,12 @@ function App() {
               <tr>
                   <td>
                       <div className="container pinkball">
-                      <img src={pinkball} className="img-fluid"/>
+                          <img src={pinkball} className="img-fluid"/>
                       </div>
                   </td>
               </tr>
           </table>
-
             </div>
-
   );
 }
 
